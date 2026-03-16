@@ -1,0 +1,9 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#F7F3EA"/>
+  <rect x="140" y="96" width="920" height="708" rx="42" fill="white"/>
+  <rect x="140" y="96" width="920" height="180" rx="42" fill="#0E3A64"/>
+  <circle cx="310" cy="512" r="114" fill="#D4A73C"/>
+  <circle cx="598" cy="512" r="114" fill="#0E3A64"/>
+  <circle cx="886" cy="512" r="114" fill="#D4A73C"/>
+  <text x="190" y="190" fill="white" font-family="Segoe UI, Arial" font-size="42" font-weight="700">Merit Felicitation Event</text>
+</svg>

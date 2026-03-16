@@ -1,0 +1,8 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#0E3A64"/>
+  <rect x="110" y="110" width="980" height="680" rx="38" fill="white"/>
+  <rect x="176" y="184" width="848" height="58" rx="16" fill="#F7F3EA"/>
+  <path d="M244 654 388 490l106 114 170-210 194 260H244Z" fill="#D4A73C"/>
+  <circle cx="414" cy="394" r="56" fill="#0E3A64"/>
+  <text x="176" y="224" fill="#0E3A64" font-family="Segoe UI, Arial" font-size="42" font-weight="700">Career Guidance Workshop</text>
+</svg>

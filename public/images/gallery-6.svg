@@ -1,0 +1,10 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#F7F3EA"/>
+  <rect x="98" y="114" width="1004" height="672" rx="40" fill="#0E3A64"/>
+  <rect x="158" y="180" width="884" height="110" rx="24" fill="white"/>
+  <rect x="158" y="334" width="280" height="370" rx="34" fill="#D4A73C"/>
+  <rect x="468" y="334" width="574" height="96" rx="26" fill="white" fill-opacity="0.95"/>
+  <rect x="468" y="456" width="574" height="96" rx="26" fill="white" fill-opacity="0.8"/>
+  <rect x="468" y="578" width="574" height="96" rx="26" fill="white" fill-opacity="0.65"/>
+  <text x="186" y="248" fill="#0E3A64" font-family="Segoe UI, Arial" font-size="42" font-weight="700">Rural Student Outreach</text>
+</svg>

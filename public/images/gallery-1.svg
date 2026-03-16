@@ -1,0 +1,11 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#0E3A64"/>
+  <circle cx="1000" cy="160" r="120" fill="#D4A73C" fill-opacity="0.25"/>
+  <circle cx="230" cy="720" r="170" fill="white" fill-opacity="0.08"/>
+  <rect x="118" y="130" width="964" height="640" rx="34" fill="white" fill-opacity="0.94"/>
+  <rect x="190" y="228" width="820" height="76" rx="18" fill="#F7F3EA"/>
+  <rect x="190" y="334" width="364" height="268" rx="28" fill="#0E3A64"/>
+  <rect x="584" y="334" width="426" height="268" rx="28" fill="#D4A73C"/>
+  <rect x="190" y="628" width="820" height="40" rx="20" fill="#E7ECF3"/>
+  <text x="190" y="190" fill="#0E3A64" font-family="Segoe UI, Arial" font-size="42" font-weight="700">Scholarship Awareness Camp</text>
+</svg>
