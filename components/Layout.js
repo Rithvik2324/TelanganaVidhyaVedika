@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import WhatsAppCTA from "./WhatsAppCTA";
 import { organization } from "../data/siteData";
 
 export default function Layout({ children, title, description }) {
@@ -18,6 +19,7 @@ export default function Layout({ children, title, description }) {
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <WhatsAppCTA />
       </div>
     </>
   );

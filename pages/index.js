@@ -1,10 +1,13 @@
 import Layout from "../components/Layout";
 import Container from "../components/Container";
 import Hero from "../components/Hero";
+import CallbackForm from "../components/CallbackForm";
 import SectionHeading from "../components/SectionHeading";
 import ServiceCard from "../components/ServiceCard";
 import ScholarshipCard from "../components/ScholarshipCard";
 import ContactForm from "../components/ContactForm";
+import LeadMagnet from "../components/LeadMagnet";
+import TrustBuilders from "../components/TrustBuilders";
 import { admissionTracks, contactDetails, organization, processSteps, services } from "../data/siteData";
 
 export default function HomePage() {
@@ -13,6 +16,23 @@ export default function HomePage() {
       description="Telangana Vidya Vedika offers all admissions, all seats, and college guidance across India for B.Tech, medical, pharmacy, nursing, management, and more. Call Shyam Reddy at 9347642633."
     >
       <Hero />
+
+      <section className="bg-white py-12">
+        <Container>
+          <div className="grid gap-5 md:grid-cols-4">
+            {[
+              "Rank-based college suggestions",
+              "WhatsApp counseling access",
+              "Parent callback in 5-10 minutes",
+              "Lead follow-up tracking"
+            ].map((item) => (
+              <div key={item} className="rounded-2xl border border-brand-navy/10 bg-white p-5 shadow-sm">
+                <p className="font-semibold leading-7 text-brand-navy">{item}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </section>
 
       <section className="py-20">
         <Container>
@@ -57,6 +77,8 @@ export default function HomePage() {
         </Container>
       </section>
 
+      <LeadMagnet source="homepage-pdf" />
+
       <section className="py-20">
         <Container>
           <SectionHeading
@@ -89,6 +111,14 @@ export default function HomePage() {
           </div>
         </Container>
       </section>
+
+      <section className="py-20">
+        <Container>
+          <CallbackForm source="homepage-callback" />
+        </Container>
+      </section>
+
+      <TrustBuilders />
 
       <section className="bg-brand-navy py-20 text-white">
         <Container>
